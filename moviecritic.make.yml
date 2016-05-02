@@ -1,0 +1,31 @@
+core: 7.x
+api: 2
+projects:
+  drupal:
+    version: '7.43'
+  backup_migrate:
+    version: '3.1'
+  ctools:
+    version: '1.9'
+  context:
+    version: '3.6'
+  date:
+    version: '2.9'
+  feeds:
+    version: 2.0-beta2
+  feeds_ex:
+    version: 1.0-beta2
+  image_url_formatter:
+    version: '1.4'
+  job_scheduler:
+    version: 2.0-alpha3
+  views:
+    version: '3.13'
+libraries:
+  jsonpath:
+    directory_name: jsonpath
+    custom_download: true
+    type: library
+    download:
+      type: "file"
+      url: "https://www.dropbox.com/s/1f1wb7f3qkph3e7/jsonpath.php.zip?dl=0"
