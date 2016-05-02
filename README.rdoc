@@ -1,0 +1,5 @@
+== README
+
+Drupal Admin Credentials:
+Username: root
+Password: root
